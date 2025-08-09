@@ -1,2 +1,4 @@
 # Xsstrike_easy
 practice
+
+这是一个读完xsstrike源码之后想要模仿写一个类似的简化版本工具的地儿
