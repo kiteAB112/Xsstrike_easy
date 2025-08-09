@@ -1,0 +1,20 @@
+# 忽略虚拟环境目录
+venv/
+
+# 忽略Python编译生成的文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 忽略开发环境配置文件
+.env
+.venv
+
+# 忽略IDE相关文件
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
