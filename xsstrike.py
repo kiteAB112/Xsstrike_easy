@@ -57,7 +57,17 @@ core.log.file_log_level = args.file_log_level
 
 logger = core.log.setup_logger()
 
-core.config.globalVariables = vars(args)
+core.config.globalVariables = vars(args) # store args in globalVariables,for use in other modules
+
+
+if not proxy:
+    core.config.proxy = None
+
+# 这里只是简单的两种，一个是有 --data，一个是没有 --data
+
+scan(target,paramData)
+
+
 
 
 
