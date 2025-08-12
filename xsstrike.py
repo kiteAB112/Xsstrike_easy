@@ -63,7 +63,7 @@ core.config.globalVariables = vars(args) # store args in globalVariables,for use
 if not proxy:
     core.config.proxy = None
 
-# 这里只是简单的两种，一个是有 --data，一个是没有 --data
+# 这里只是简单的两种，一个是有 --data，一个是没有 --data,直接都丢进去函数里面处理吧
 
 scan(target,paramData)
 

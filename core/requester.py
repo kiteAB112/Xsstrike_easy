@@ -9,7 +9,7 @@ logger = logger(__name__)
 warnings.filterwarnings("ignore") # Disable SSl related warnings
 
 
-def requester(url,data,headers):
+def requester(url,data,headers,GET):
     
 
 
