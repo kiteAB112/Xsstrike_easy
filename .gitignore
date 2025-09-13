@@ -9,6 +9,7 @@ __pycache__/
 # 忽略开发环境配置文件
 .env
 .venv
+road.md
 
 # 忽略IDE相关文件
 .vscode/
