@@ -13,7 +13,7 @@ def requester(url,data,GET):
     
     try:
         if GET:
-            response = requests.get(url)
+            response = requests.get(url,params=data)
         else:
             response = requests.post(url,data=data)
 

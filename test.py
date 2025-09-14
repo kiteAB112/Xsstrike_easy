@@ -37,4 +37,9 @@ response = """
 """
 
 # 调用函数并打印结果
-print(extractScripts(response))
+# print(extractScripts(response))
+
+environments = set(['<', '>'])  # 初始化为包含 '<' 和 '>' 的集合
+environments.add('-->')
+
+print(environments)

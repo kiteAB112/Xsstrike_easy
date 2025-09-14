@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import imp
+# import imp
 from core import config
 from modes.scan import scan
 import parser
